@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+  <link href="https://fonts.googleapis.com/css?family=Inria Sans" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Inria Serif" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" />
+
+  <link rel="stylesheet" href="../css/main.css" />
+
+  <link rel="stylesheet" href="../css/projects.css" />
+  <!--link
+      rel="stylesheet"
+      href="./css/main-sm.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/main-md.css"
+    />
+
+    <link
+      rel="icon"
+      href="assets/Chiave 1.png"
+      sizes="16x16"
+      type="image/png"
+    /-->
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+  <title>Portfolio - Mattia Gianotti</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row" id="introframe">
+      <div class="col-6">
+        <p class="importanttextIntro">Spark</p>
+        <p>
+          Spark is an evolution of Lands of Fog game realized at Universitat Pompeu Fabra (Barcellona) at FuBIntLab following the 
+          guide of Prof. Narcìs Parés. I had the opportunity to do a visiting Ph.D. period at their lab and, together with a master 
+          thesist I was supervising, we were asked to design a evolution of Lands of Fog, starting from the analysis of it limitations.
+          Spark is an innovative technological enhanced smart space designed to aid specialists in the care of HFASC (high-functioning 
+          autistic people) children to foster their social skills. The collaborative virtual environment was designed to scaffold 
+          social interaction by immersing children into an abstract space which would enable a mixed couple of HFASC child and normotypical 
+          children to cooperate close or at a distance.
+        </p>
+        <p>
+          For this project we created a prototype improving the original Lands Of Fog software and hardware setup, focusign more on
+          the generative part of the game. In a second iteration the hardware used to track users' posiotion had been redesigned.
+        </p>
+        <p>Timeframe of the project: 2019 - 2020 (project interrupted due to Covid19 Pandemic)</p>
+        <!-- add here tags for technology involved-->
+      </div>
+      <div class="col-1"></div>
+      <div class="col-5">
+        <div id="inspirationquote">
+          <div id="inpirationtag">My inspiration</div>
+          <p>
+            His ship bearing the silmaril was set to sail in the heavens as a star, and a sign of hope to the dwellers in Middle-earth.
+          </p>
+          <p>[J.R.R: Tolkien]</p>
+        </div>
+        <div id="takehome">
+          <p>
+            In Spark, my role as Lead Developer focused on the ideation of the generative system, improvement to the technological infrastructure
+            of the precedent projects and thesigning the evaluations.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 divider">
+        <div class="Title">HOW DOES IT WORK?</div>
+        <div class="row">
+          <div class="col-4">
+            <div class="subtitle">The Experience</div>
+            <div class="description">
+              <p>
+                Spark used a single 6x6 meters floor projection and directional audio to immerse the children in a space-like exploration experience.
+                Spark brings a dyad of children, one atypical and one normotypical, in a free open-ended game. The experience is 
+                designed to foster continuously cooperation. However the lack of defined goal and precise instruction has been designed to let the 
+                children explore and discover autonomously that by cooperating with the playmate they can achieve greater results
+              </p>
+              <p>
+                Our system can adapt in real time depending on the behavior of the children and their interaction. 
+                The system can measure the status of the interaction and try to adapt the context of the play 
+                session in the best possible way. The first aim is to help users discover the new interaction possibilities they have 
+                yet to discover. A second aim is to reduce the isolation and steretypical behaviors during the game.
+                Finally, the last aim is to hint different discovery path to make the children interested in coming back playing for a longer period.
+              </p>
+            </div>
+          </div>
+          <div class="col-8">
+            <img src="../images/Spark.png" class="fillupspace" alt="images of music&paint">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-8">
+            <img src="../images/Sparkelements.png" class="fillupspace" alt="images of music&paint">
+          </div>
+          <div class="col-4">
+            <div class="subtitle">The Generation syntax</div>
+            <div class="description">
+              <p>
+                The system's generation of content instead is based on 8 particle types, identified by different clearly distinguishable colors 
+                and seven astral elements: white holes, gift particles, roaming elements, asteroids, planets, stars and blackholes.
+              </p>
+              <p>
+                Each level if randomly geenrated by picking up a set of 4 particle types and populated dynamically. 
+                White holes allow Single Player interactions: once a player stand on top of it for few seconds, a stream of gift particles erupts 
+                towards the other child and, once reached, start orbiting around him/her. Once those particles interact with a roaming element 
+                they are converted into a planet. 
+                If two players coordinate and activate (almost) simultaneously two withe holes, the two stream of gift particles collide in the middle. 
+                the result, according to the match of types, can either be a visual-acoustic rewarding effect or the creation of a star. 
+                Similarly to the planet, the size, color and number of rings of the star depend on the particle types involved.
+                Size, color, number of moons and rings and luminosity are decided according to the types and number of gift particles involved.
+                Planets can be moved when both players are next to it and move in the same direction.
+                Once all the orbits of the planet have been filled the solar system collapse onto the star generating a black hole.
+                When the two players are together on top the black hole an effect is performed to move the children smoothly from the current level to a 
+                new level, which follows the same rules but has a different set of colors, letting the children explore new possible combinations.
+
+              </p>
+            </div>
+          </div>
+          
+        </div>
+        <div class="row">
+          
+          <div class="col-4">
+            <div class="subtitle">
+              The technological apparatus for Spark is minimal:
+            </div>
+            <div class="description">
+              The virtual space is enabled by two high-quality projectors were mounted onto scaffolds and positioned on opposite ends of the room. 
+              The projectors were oriented towards the floor, allowing the projection of a six-by-six-meter play area. The floor was equipped 
+              with special, white tiles providing a high-quality projection surface. A two-speaker system was used allowing the reproduction 
+              of panned audio. Both speakers were set to a low volume to not discourage users from speaking. Four cameras were positioned 
+              beneath the ceiling, centered above the play area. The four cameras together covered the whole play area and allowed the detection 
+              of colored lights within the play area.
+              Interact with the virtual elements from the physical world is mediated by a custom-made handheld device; It has two main effects: 
+              it helps the children to be focused on the interaction; and it helps the children clearly determine how and where they 
+              are affecting the play-space.
+            </div>
+          </div>
+          <div class="col-8">
+            <img src="../images/Sparkequipment.png" class="fillupspace" alt="schema"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8">
+            <img src="" alt="architecture.png" class="fillupspace" />
+          </div>
+          <div class="col-4">
+            <div class="subtitle">What was my role?</div>
+            <div class="description">
+              <p>
+                My role has been of Lead Developer of the project. I was the main designer of the genrative algorithm, the interaction mechanism and the 
+                visuals feeling. I was also the developer of this part of the project, excpet for the 3d modelling of the objects.
+              </p>
+              <p>
+                I was also the supervisor of the Master thesist who programmed the hint system as well as the supervisor of the experiemtnal study.
+                Unfortunately pandemic breakthrough forbade us to complete the empirical evalaution of the project.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <div class="row">
+      <div class="col-12 divider">WANT TO KNOW ME MORE?</div>
+    </div>
+
+    <div class="row">
+      <div class="col-4">
+        <p id="introProjects">OTHER RELATED PROJECTS:</p>
+      </div>
+      <div class="col-4">
+        <div class="card mycard bg-dark text-white">
+          <a href="./MagicRoomProject.html">
+              <img class="card-img" src="../images/IMG_5766.jpg" alt="Card image">
+              <div class="card-img-overlay">
+                  <h5 class="card-title projecttitle">The Magic Room</h5>
+                  <p class="card-text projectdesc">Design and create a fully forking IoT system for the expeirence of children</p>
+                  <p class="card-text projectrole">Role: Development leader</p>
+              </div>
+          </a>
+          </div>
+      </div>
+      <div class="col-4">
+        <div class="card mycard bg-dark text-white">
+          <a href="/assets/pages/MusicAndPaint.html">
+            <img class="card-img" src="../images/IMG_5766.jpg" alt="Card image" />
+            <div class="card-img-overlay">
+              <h5 class="card-title projecttitle">Music and Paint</h5>
+              <p class="card-text projectdesc">Create a multisensory generative solution combining art and music therapy</p>
+              <p class="card-text projectrole">Role: Development supervisor</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-3 mb-0 text-body-secondary">2024 Mattia Gianotti</p>
+
+      <p class="col-md-3 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto">
+        <a href="https://www.linkedin.com/in/mattia-gianotti-144590141/?originalSubdomain=it"
+          class="link-body-emphasis text-decoration-none">
+          Linkedin
+        </a>
+        |
+        <a href="https://www.deib.polimi.it/ita/personale/details/848816" class="link-body-emphasis text-decoration-none">
+          Polimi
+        </a>
+      </p>
+
+      <ul class="nav col-md-6 justify-content-end">
+        <li class="nav-item">
+          <a href="../../index.html" class="nav-link px-2 text-body-secondary">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Pubblication</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Teaching</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Working experience</a>
+        </li>
+        <li class="nav-item">
+          <a href="assets/static_resources/Curriculum Vitae - rtda December 2023.pdf" target="_blank"
+            type="application/pdf" class="nav-link px-2 text-body-secondary">Resume</a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <!--script src="./js/main.js"></script-->
+</body>
+
+</html>
