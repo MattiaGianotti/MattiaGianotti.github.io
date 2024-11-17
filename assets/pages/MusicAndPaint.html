@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+  <link href="https://fonts.googleapis.com/css?family=Inria Sans" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Inria Serif" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" />
+
+  <link rel="stylesheet" href="../css/main.css" />
+
+  <link rel="stylesheet" href="../css/projects.css" />
+  <!--link
+      rel="stylesheet"
+      href="./css/main-sm.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/main-md.css"
+    />
+
+    <link
+      rel="icon"
+      href="assets/Chiave 1.png"
+      sizes="16x16"
+      type="image/png"
+    /-->
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+  <title>Portfolio - Mattia Gianotti</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row" id="introframe">
+      <div class="col-6">
+        <p class="importanttextIntro">Music & Paint</p>
+        <p>
+          Music & Paint is an innovative evolution of the Magic Room project focused on generative content.
+          The first objectve of the project is aims to foster collaboration between people with moderate to 
+          severe learning disabilities and complex needs, and in particular autism.
+          Secondly, our aim was to offer caregivers an innovative possible tool during their daily activities.          
+          It si known from litterature that painting and music therapy approaches can help to foster social 
+          interaction for autistic people. However, the tools sometimes lack of flexibility and fail to keep 
+          people's attention. Unknowns also remain about the effect of combining these approaches.
+        </p>
+        <p>
+          For this project we created an initial prototype usign the Magic Room tools, then we created a 
+          portable version of the smart space to bring the tool in contexts that could not create a dedicated
+          room.
+        </p>
+        <p>Timeframe of the project: 2023 - 2024</p>
+        <!-- add here tags for technology involved-->
+      </div>
+      <div class="col-1"></div>
+      <div class="col-5">
+        <div id="inspirationquote">
+          <div id="inpirationtag">My inspiration</div>
+          <p>
+            Even the smallest person can change the course of the future.
+          </p>
+          <p>[J.R.R: Tolkien]</p>
+        </div>
+        <div id="takehome">
+          <p>
+            In Music & Paint, my role as supervisor was to ensure the development followed a clean design directed
+            to satisfy the users needs, together with offering technical knowledge to solve most complex problems.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 divider">
+        <div class="Title">HOW DOES IT WORK?</div>
+        <div class="row">
+          <div class="col-4">
+            <div class="subtitle">The Experience</div>
+            <div class="description">
+              <p>
+                In our applicatin we used a shared frontal projection as a digital canvas for two users playing simultaneously.
+                Each user has a handheld controller that allows them to paint, errase or move around the canvas to play the
+                different melodies. Users can ineract with the system by clicking on the Internet of Thins (IoT) powered contoller 
+                or moving around the space. Players can share their melodies and drawings, either by combinig their drawings or 
+                playing eachothers melodies.
+              </p>
+              <p>
+                The system also include a hint system to support the users in case of need. It silently detect the different users 
+                behaviours searching for repetive patters of actions or inctivities and propose visual and auditory stimuly
+                to suggest the user different actions, inspire a new interaction or attract the attention to the other player's drawing.
+                Finally the caregiver can  use the tablet to control the experience and help the users clean up the drawing, changing
+                drawing color for the users, and force the hint system to triger a certain action.
+              </p>
+              <p>
+                Further detail on the design process can be found in <a href="https://dl.acm.org/doi/abs/10.1145/3613905.3651101" target="_blank">this scientific paper.</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-8">
+            <img src="..." class="fillupspace" alt="images of music&paint">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-8">
+            <img src="..." class="fillupspace" alt="images of music&paint">
+          </div>
+          <div class="col-4">
+            <div class="subtitle">The Generation syntax</div>
+            <div class="description">
+              <p>
+                Each visual has a music counterpart and conversely in order to provide organization, strucure, predicibility and 
+                armony to the final outcome; in this way the user can use its creativity to create whatever he desired predicting
+                the outcome of its actions (fundamental for autistic people).
+              </p>
+              <p>
+                The experience relies on three layers: 
+                <ul>
+                  <li>Sound nodes are represened as paint spots</li>
+                  <li>Melodies are represented as lines eventually passing over the paint spots</li>
+                  <li>composition rules differentate between temporary melodies (create by moving fast on the canvas), 
+                    normal melodies(created by moving slowly), or loops (melodied hat forms a close shape) </li>
+                </ul>
+                
+              </p>
+            </div>
+          </div>
+          
+        </div>
+        <div class="row">
+          
+          <div class="col-4">
+            <div class="subtitle">
+              The technology is inherited greatly by the original Magic Room, with the addition of further activities..:
+            </div>
+            <div class="description">
+              <ol>
+                <!--to fix up-->
+                <li>two projectors, one projecting on the front wall (A) and one projecting on the floor (C)</li>
+                <li>motion tracking device (D), now powered by a custom solution usign Google MediaPipe</li>
+                <li>Smart Object for control (E)</li>
+                <li>audio dolby sorround 5.1 (G)</li>
+                <li>control tablet (H)</li>
+                <li>Smart light system controllabel in intensity and color fixed on the ceiling (I)</li>
+              </ol>
+            </div>
+          </div>
+          <div class="col-8">
+            <img src="..." class="fillupspace" alt="schema"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8">
+            <img src="" alt="architecture.png" class="fillupspace" />
+          </div>
+          <div class="col-4">
+            <div class="subtitle">What was my role?</div>
+            <div class="description">
+              <p>
+                My role was of supervisor of the project. Initially I was in charge of the support of the design. My role was on on side the cultural mediator between 
+                the team members (non italian) and the caregivers participating in the project and the final users involved in or iterative design approach who
+                had difficulties speaking in english. On the other side I was also the technological expert that was asked to interpret the requirement and evaluae the
+                feasibility of the propoesed approaches.
+
+              </p>
+              <p>
+                In the following part of the project I was involved as technical supervisor to support the development in the critical moments, and especially as 
+                experiemtal design supervisor, where my role was to check the soundness of the protocol and the feasibility.
+                results of the study are reported in a scientific paper under revision.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <div class="row">
+      <div class="col-12 divider">WANT TO KNOW ME MORE?</div>
+    </div>
+
+    <div class="row">
+      <div class="col-4">
+        <p id="introProjects">OTHER RELATED PROJECTS:</p>
+      </div>
+      <div class="col-4">
+        <div class="card mycard bg-dark text-white">
+          <a href="./MagicRoomProject.html">
+              <img class="card-img" src="../images/IMG_5766.jpg" alt="Card image">
+              <div class="card-img-overlay">
+                  <h5 class="card-title projecttitle">The Magic Room</h5>
+                  <p class="card-text projectdesc">Design and create a fully forking IoT system for the expeirence of children</p>
+                  <p class="card-text projectrole">Role: Development leader</p>
+              </div>
+          </a>
+      </div>
+      </div>
+      <div class="col-4">
+        <div class="card mycard bg-dark text-white">
+          <a href="">
+            <img class="card-img" src="../images/IMG_5766.jpg" alt="Card image" />
+            <div class="card-img-overlay">
+              <h5 class="card-title projecttitle">Music and Paint</h5>
+              <p class="card-text projectdesc">....</p>
+              <p class="card-text projectrole">Role: Development supervisor</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-3 mb-0 text-body-secondary">2024 Mattia Gianotti</p>
+
+      <p class="col-md-3 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto">
+        <a href="https://www.linkedin.com/in/mattia-gianotti-144590141/?originalSubdomain=it"
+          class="link-body-emphasis text-decoration-none">
+          Linkedin
+        </a>
+        |
+        <a href="https://www.deib.polimi.it/ita/personale/details/848816" class="link-body-emphasis text-decoration-none">
+          Polimi
+        </a>
+      </p>
+
+      <ul class="nav col-md-6 justify-content-end">
+        <li class="nav-item">
+          <a href="../../index.html" class="nav-link px-2 text-body-secondary">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Pubblication</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Teaching</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Working experience</a>
+        </li>
+        <li class="nav-item">
+          <a href="assets/static_resources/Curriculum Vitae - rtda December 2023.pdf" target="_blank"
+            type="application/pdf" class="nav-link px-2 text-body-secondary">Resume</a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <!--script src="./js/main.js"></script-->
+</body>
+
+</html>
