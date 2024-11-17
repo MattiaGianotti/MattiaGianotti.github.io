@@ -1,0 +1,208 @@
+body{
+    font-family: 'Inria Sans';
+}
+
+.container{
+    margin: 0%;
+    max-width: 100%;
+    padding: 0%;
+}
+
+.row{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.fullrow{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.fullrow .col-12{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+#introframe{
+    height: 80vh;
+    background-color: cornflowerblue;
+    margin:0%;
+    padding-top: 5%;
+}
+
+#introframe p{
+    color: white;
+    margin-top: 10px;
+    padding-left: 5%;
+}
+
+#introframe .importanttextIntro{
+    font-size: 2.5rem;
+    margin-bottom: -10px;
+    margin-top: 0px;
+}
+
+#inspirationquote{
+    background-color: white;
+    border-radius: 25px;
+    margin-right: 10%;
+    padding: 2%;
+}
+
+#inspirationquote p{
+    color: cornflowerblue;
+    font-size: 1.5rem;
+}
+
+#inpirationtag{
+    background-color: blue ;
+    color: white;
+    position: absolute;
+    top: -5%;
+    border-radius: 25px;
+    margin-left: 65%;
+    padding: 2%;
+    /*box-shadow: 4px 4px gray;*/
+    transform: translate(0);
+    transform-style: preserve-3d;
+}
+
+#inpirationtag:before {
+    content:"";
+    position: absolute;
+    inset: 3px;
+    transform: translate3d(8px,8px,-1px);
+    background: conic-gradient(from 90deg at 40% -25%, grey, grey);
+    filter: blur(10px);
+    border-radius: inherit;
+}
+
+#introProjects{
+    font-size: 2rem;
+    color: cornflowerblue;
+    margin-right: 30%;
+    margin-left: 5%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.mycard{
+    border-radius: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    min-height: 15rem;
+}
+
+.mycard::before {
+    content:"";
+    position: absolute;
+    inset: 3px;
+    transform: translate3d(10px,10px,-1px);
+    background: conic-gradient(from 90deg at 40% -25%, grey, grey);
+    filter: blur(10px);
+    border-radius: inherit;
+    z-index: -1;
+}
+
+.mycard a img{
+    border-radius: 25px;
+    object-fit: fill;
+    height: 100%;
+} 
+
+.mycard a .card-img-overlay{
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-top: 5%;
+    padding-right: 40%;
+}
+
+.projecttitle{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 30%;
+}
+.projectdesc{
+    color: white;
+    font-size: 1rem;
+}
+
+.projectrole{
+    position: absolute;
+    font-size: 1rem;
+    bottom: -20px;
+    right: 30px;
+    background-color: blue ;
+    color: white;
+    padding: 2%;
+    border-radius: 25px;
+}
+
+.divider{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 2rem;
+    ;
+}
+
+.skillbutton{
+    padding: 2%;
+}
+
+.skillbutton div{
+    padding: 1%;
+    border-radius: 25px;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+.skillbutton a:any-link{
+    color:white;
+}
+
+#bio{
+    margin-top: 5%;
+}
+#biotag{
+    position: absolute;
+    font-size: 1rem;
+    top: -20px;
+    right: 30%;
+    background-color: blue ;
+    color: white;
+    padding: 2%;
+    border-radius: 25px;
+}
+
+#imgprofile{
+    width: 80%;
+    border-radius: 25px;
+}
+
+.biotext {
+    height:auto;
+  }
+
+.biotext div {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-5%, -50%);
+}
+
+.isDisabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+  }
+
+footer{
+    font-size: 1rem;
+    width: 100%;
+}

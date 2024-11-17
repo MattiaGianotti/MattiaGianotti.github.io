@@ -1,0 +1,85 @@
+#takehome{
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 10%;
+    margin-right: 10%;
+    padding: 2%;
+}
+
+#takehome p{
+    color: cornflowerblue;
+    font-size: 1.5rem;
+}
+
+.Title{
+    font-size: 2rem;
+}
+
+.subtitle{
+    font-size: 1.5rem;
+}
+
+.description{
+    text-align: left;
+    font-size: 1rem;
+}
+
+.fillupspace{
+    width:100%
+}
+
+.card-text{
+    font-size: 1rem;
+}
+
+.list-group-item{
+    font-size: 1rem;
+}
+
+.dividerdesc{
+    font-size: 1.5rem;
+}
+
+.fullrow .dividerdesc{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card-link{
+    font-size: 1rem;
+}
+
+.carousel-item .card{
+    width: 100% !important
+}
+
+#carouselActivities{
+    background-color: cornflowerblue;
+    margin: 0%;
+    height: 55rem !important;
+    overflow: hidden;
+}
+
+#carouselActivities .carousel-control-prev{
+    width: 5%;
+}
+
+#carouselActivities .carousel-control-next{
+    width: 5%;
+}
+
+.carousel-inner{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.card-body p{
+    font-size: 1rem;
+}
+
+.card-link{
+    margin: 0%;
+    padding:0%;
+}
