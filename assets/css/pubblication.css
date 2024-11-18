@@ -1,0 +1,80 @@
+.button-link{
+    background-color: white;
+    color: cornflowerblue;
+    border-radius: 25px;
+    padding: 2%;
+    text-align: center;
+}
+
+.divider{
+    margin-bottom: 0%;
+    margin-top: 2%;
+}
+
+.Title{
+    margin-bottom: 2%;
+    color: cornflowerblue;
+}
+
+.card{
+    background-color: cornflowerblue;
+    border-radius: 25px;
+    margin: 1%;
+}
+
+.card-header{
+   background-color: transparent; 
+}
+
+.papertitle{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0%;
+}
+
+.authors{
+    color: white;
+    font-size: 1.2rem;
+    margin: 0%;
+}
+
+.btn{
+    padding: 0%;
+}
+
+.year{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.abstract{
+    color:white;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.location{
+    font-size: 1rem;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.link{
+    font-size: 1rem;
+    background-color: white;
+    color: cornflowerblue;
+    border-radius: 25px;
+    padding: 2%;
+    text-align: center;
+}
+
+.refproject{
+    font-size: 1rem;
+    background-color: white;
+    color: cornflowerblue;
+    border-radius: 25px;
+    padding: 2%;
+    text-align: center;
+}
