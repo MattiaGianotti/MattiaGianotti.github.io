@@ -78,3 +78,18 @@
     padding: 2%;
     text-align: center;
 }
+
+#thesislist{
+    font-size: 1rem;
+    text-align: left;
+}
+
+.abstract ul li{
+    color:white;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.abstract a{
+    color:white;
+}
