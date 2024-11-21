@@ -20,6 +20,7 @@
     background-color: cornflowerblue;
     border-radius: 25px;
     margin: 1%;
+    height: 100%;
 }
 
 .card-header{
@@ -107,4 +108,9 @@
 .iconskillimage{
    width: 40%;
    align-self: center; 
+}
+
+.paddingrow{
+    padding-top: 1%;
+    padding-bottom: 1%;
 }

@@ -25,7 +25,7 @@ body{
 }
 
 #introframe{
-    height: 80vh;
+    min-height: 80vh;
     background-color: cornflowerblue;
     margin:0%;
     padding-top: 5%;
@@ -107,15 +107,28 @@ body{
 
 .mycard a img{
     border-radius: 25px;
-    object-fit: fill;
+    object-fit: cover;
     height: 100%;
+    width:100%;
+    min-height: 15rem;
 } 
+
+.img-proj::after {
+    content:"";
+    background-color: rgba(0,0,0,0.6);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    border-radius: 25px;
+}
 
 .mycard a .card-img-overlay{
     padding-left: 5%;
     padding-top: 5%;
     padding-top: 5%;
-    padding-right: 40%;
+    padding-right: 5%;
 }
 
 .projecttitle{
@@ -154,10 +167,12 @@ body{
 }
 
 .skillbutton div{
-    padding: 1%;
+    padding: 5%;
     border-radius: 25px;
     background-color: cornflowerblue;
     text-align: center;
+    vertical-align: middle;
+    line-height: 1.5;
 }
 
 .skillbutton a:any-link{
@@ -189,10 +204,6 @@ body{
 
 .biotext div {
     margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    transform: translate(-5%, -50%);
 }
 
 .isDisabled {
@@ -205,4 +216,9 @@ body{
 footer{
     font-size: 1rem;
     width: 100%;
+}
+
+.fillheight{
+    height:100%;
+    align-self: center;
 }

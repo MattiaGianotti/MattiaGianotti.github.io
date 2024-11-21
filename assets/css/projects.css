@@ -83,3 +83,48 @@
     margin: 0%;
     padding:0%;
 }
+.card{
+    margin-top: 5%;
+}
+
+.marginrow{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#packageCarousel{
+    max-height: 20rem;
+}
+#packageCarousel img{
+    max-height: 30rem;
+    object-fit: fill;
+
+}
+
+.rolerow{
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 25px;
+    padding: 5%;
+}
+
+.roletitle{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.roledescription{
+    text-align: left;
+    font-size: 1rem;
+}
+
+.rolerow::before {
+    content:"";
+    position: absolute;
+    inset: 3px;
+    transform: translate3d(10px,10px,-1px);
+    background: conic-gradient(from 90deg at 40% -25%, grey, grey);
+    filter: blur(10px);
+    border-radius: inherit;
+    z-index: -1;
+}
