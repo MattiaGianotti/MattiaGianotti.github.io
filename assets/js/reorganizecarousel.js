@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  if (screen.width < 1200) {
+  if (screen.width < 990) {
     console.log("hi");
     var indicators = $("#carouselActivities")[0].children[0];
     var innercarousel = $("#carouselActivities")[0].children[1];
