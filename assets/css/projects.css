@@ -203,4 +203,7 @@
     #carouselstoryword .carousel-inner{
         padding: 0%;
     }
+    .otherproject .col-sm-12 {
+        padding-right: 2%;
+    }
 }
