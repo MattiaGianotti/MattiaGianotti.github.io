@@ -60,6 +60,28 @@
     overflow: hidden;
 }
 
+#blockActivities{
+    background-color: cornflowerblue;
+    margin: 0%;
+    height:auto;
+    padding: 2%;
+}
+
+#blockActivities .card{
+    height:100%;
+    margin-top:0%;
+}
+
+#carouselActivities .card{
+    height:100%;
+    margin-top:0%;
+}
+
+#carouselActivities .card img{
+    height:32%;
+    object-fit: cover;
+}
+
 #carouselActivities .carousel-control-prev{
     width: 5%;
 }
@@ -127,4 +149,58 @@
     filter: blur(10px);
     border-radius: inherit;
     z-index: -1;
+}
+
+.fullrow .col-sm-12{
+    padding: 0%;
+}
+
+@media screen and (max-width: 1200px) {
+    #takehome{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .divider{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .divider .row{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .col-sm-12 {
+        padding: 0%;
+    }
+
+    .dividerdesc{
+        font-size: 1rem;
+    }
+
+    #introProjects{
+        margin: 5%;
+        display: none;
+    }
+
+    #packageCarousel{
+        height: auto;
+        max-height: fit-content;
+    }
+    .roledescription{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #carouselimages .carousel-inner{
+        padding: 0%;
+    }
+    #experiencecarousel .carousel-inner{
+        padding: 0%;
+    }
+    #packageCarousel .carousel-inner{
+        padding: 0%;
+    }
+    #carouselstoryword .carousel-inner{
+        padding: 0%;
+    }
 }

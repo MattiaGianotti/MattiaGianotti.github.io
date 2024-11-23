@@ -222,3 +222,40 @@ footer{
     height:100%;
     align-self: center;
 }
+
+@media screen and (max-width: 1200px) {
+    #inspirationquote{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+    #inpirationtag{
+        position: sticky;
+        top: 0%;
+    }
+
+    #bio {
+        text-align:center;
+    }
+    #biotag{
+        right: 16%;
+    }
+    .biotext{
+        text-align: left;
+    }
+    #introframe{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #blockActivities .card{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .spacecell{
+        margin-bottom: 2%;
+    }
+
+    .nav-item{
+        max-width: 23%;
+    }
+}

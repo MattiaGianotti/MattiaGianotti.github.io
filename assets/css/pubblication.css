@@ -114,3 +114,42 @@
     padding-top: 1%;
     padding-bottom: 1%;
 }
+
+@media screen and (max-width: 1200px) {
+    .authors{
+        font-size: 1rem;
+        text-align: left;
+    }
+    .papertitle{
+        text-align: left;
+    }
+
+    .card-header{
+        padding: 0%;
+    }
+    .card-header .col-md-10{
+        padding: 0%;
+    }
+    .card-body .row{
+        margin: 0%;
+    }
+    .card-body .col-md-8{
+        padding: 0%;
+    }
+    .card-body .col-md-4{
+        padding: 0%;
+    }
+
+    .studyplan{
+        text-align: left;
+    }
+
+    .skillbox{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .paddingrow{
+        padding: 0%;
+    }
+}

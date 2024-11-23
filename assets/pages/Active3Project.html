@@ -44,27 +44,29 @@
 <body>
   <div class="container">
     <div class="row" id="introframe">
-      <div class="col-6">
+      <div class="col-md-6 col-sm-12">
         <p class="importanttextIntro">ActivE³ - Everyone, Evrywhere, Everyday</p>
         <p>
-          The ActivE³ - Everyone, Evrywhere, Everyday project is a vast project involving several departments and professionalism in the Politecnico Milano.
-          It started in the last months of 2022, has been selected and financed with 3.5 million euros by Fondazione Cariplo and Regione Lombardia. 
-          Univerlecco is the coordinator of the project that also involves: Politecnico di Milano - Polo territoriale di Lecco, Consiglio Nazionale delle Ricerche
-          - sede di Lecco, IRCCS “Eugenio Medea” - Associazione La Nostra Famiglia, Fondazione Valduce, Ospedale Valduce, Centro di Riabilitazione “Villa Beretta”, 
-          IRCCS INRCA di Casatenovo, ASST Lecco e ATS Brianza.
-          ActivE³ activities address the needs of children and teenagers for whom sport is essential for growth and social life in school and in their free time, 
-          adults for whom sport means distraction, social relationships and prevention. 
-
-        </p>
-        <p>
-          In the project our aim was to evolte the Magic Room project including a Sensorized Climbing Wall, 
-          realized creating a wide sensor network to be included in the IoT interface of the Magic Room.
-        </p>
+          The ActivE³ - Everyone, Everywhere, Everyday project is a large-scale initiative involving several departments and professionals at Politecnico di Milano. 
+          It began in the final months of 2022 and was selected and funded with €3.5 million by Fondazione Cariplo and Regione Lombardia. 
+          Univerlecco is the project coordinator, and it also involves: Politecnico di Milano - Polo Territoriale di Lecco, Consiglio Nazionale delle Ricerche - 
+          Sede di Lecco, IRCCS “Eugenio Medea” - Associazione La Nostra Famiglia, Fondazione Valduce, Ospedale Valduce, Centro di Riabilitazione “Villa Beretta”, 
+          IRCCS INRCA di Casatenovo, ASST Lecco, and ATS Brianza.
+      </p>
+      <p>
+          The ActivE³ project addresses the needs of children and teenagers for whom sport is essential for growth and social interaction in both school and leisure 
+          activities, as well as adults for whom sport provides distraction, social connections, and prevention.
+      </p>
+      <p>
+          As part of the project, our aim was to evolve the Magic Room concept by incorporating a Sensorized Climbing Wall, 
+          which was created by developing an extensive sensor network to integrate with the IoT interface of the Magic Room.
+      </p>
+      
         <p>Timeframe of the project: 2022 - present</p>
         <!-- add here tags for technology involved-->
       </div>
-      <div class="col-1"></div>
-      <div class="col-5">
+      <div class="col-md-1"></div>
+      <div class="col-md-5 col-sm-12">
         <div id="inspirationquote">
           <div id="inpirationtag">My inspiration</div>
           <p>
@@ -74,7 +76,7 @@
         </div>
         <div id="takehome">
           <p>
-            In the ActivE³ my role is Task Leader in the fusion of the Magic Room and a Sensorized Climbing Wall.
+            In the ActivE³ project, my role is Task Leader for the integration of the Magic Room and the Sensorized Climbing Wall.
 
           </p>
         </div>
@@ -82,49 +84,48 @@
     </div>
 
     <div class="row">
-      <div class="col-12 divider">
+      <div class="col-md-12 col-sm-12 divider">
         <div class="Title">HOW DOES IT WORK?</div>
         <div class="row marginrow">
-          <div class="col-4">
-            <div class="subtitle">The Smart Climbing Wall</div>
-            <div class="description">
-              <p>
-                The climbing wall is consituted of standard clibing wall support on which some standard hold sockets have been substituted with holes 
-                to accomodate the sensor. The climbing wall measures 3.60x2.40 meters to offer a sufficient climbing area for children.
-                Safety cuscions have been dislocated around the climbing wall to comply with security requirements. Motorized screen projectots 
-                can cover the climbing wall in case of need to aoid children getting distracted.
-              </p>
-              <p>
-                Each sensor is connected into a chain and connected to a CAN bus and have a standardized socket to connect commercially available holds.
-                A corne node retrieve the data of each sensors' strenght measurements, and then exposed them through APIs on the local network. A new module 
-                in the Magic Room management system invoke those APIs, elaborate the strenght signals, dynamically filter the results and offer them as 
-                aggregated measures to the games.
-              </p>
+          <div class="col-md-4 col-sm-12">
+            <div class="subtitle">The Smart Climbing Wall</div> 
+            <div class="description"> 
+              <p> 
+                The climbing wall consists of a standard climbing wall support, on which some of the regular hold sockets have been replaced with holes to accommodate 
+                the sensors. The climbing wall measures 3.60 x 2.40 meters, providing ample space for children to climb. Safety cushions are positioned around the 
+                climbing wall to comply with safety requirements. Motorized screen projectors can cover the climbing wall if needed to prevent distractions for the 
+                children. 
+              </p> 
+              <p> 
+                Each sensor is connected in a chain and linked to a CAN bus, with a standardized socket to attach commercially available holds. 
+                A corner node collects the data from each sensor’s strength measurements and then exposes the data through APIs on the local network. A new module 
+                in the Magic Room management system calls these APIs, processes the strength signals, dynamically filters the results, and provides aggregated 
+                measures for the games. 
+              </p> 
             </div>
           </div>
-          <div class="col-8">
+          <div class="col-md-8 col-sm-12">
             <img src="../images/activeemptyroom.jpg" class="fillupspace" alt="empty room">
           </div>
         </div>
         <div class="row marginrow">
-          <div class="col-8">
+          <div class="col-md-8 col-sm-12">
             <img src="../images/schema magika climbing.png" class="fillupspace" />
           </div>
-          <div class="col-4">
-            <div class="subtitle">
-              The technology is inherited greatly by the original Magic Room, with the addition of further activities..:
-            </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="subtitle"> 
+              The technology is largely inherited from the original Magic Room, with the addition of further activities: 
+            </div> 
             <div class="description">
               <ol>
-                <!--to fix up-->
-                <li>two projectors, one projecting on the front wall (A) and one projecting on the floor (C) separated by a safety cuscion (B)</li>
-                <li>motion tracking device (D), now powered by a custom solution usign Google MediaPipe</li>
-                <li>Sensorized Climbing Wall (E)</li>
-                <li>Bubble emitter (F)</li>
-                <li>audio dolby sorround 5.1 (G)</li>
-                <li>control tablet (H)</li>
-                <li>Smart light system controllabel in intensity and color fixed on the ceiling (I)</li>
-                <li>Text To Speech system (J)</li>
+                <li>Two projectors: one projecting on the front wall (A) and one on the floor (C), separated by a safety cushion (B).</li>
+                <li>Motion tracking device (D), now powered by a custom solution using Google MediaPipe.</li>
+                <li>Sensorized Climbing Wall (E).</li>
+                <li>Bubble emitter (F).</li>
+                <li>Dolby Surround 5.1 audio system (G).</li>
+                <li>Control tablet (H).</li>
+                <li>Smart light system, controllable in intensity and color, fixed on the ceiling (I).</li>
+                <li>Text-to-Speech system (J).</li>
               </ol>
             </div>
           </div>
@@ -133,48 +134,46 @@
     </div>
 
     <div class="row marginrow ">
-      <div class=" col-12 rolerow">
-        <div class="roletitle">What was my role?</div>
-        <div class="roledescription">
-          <p>
-            My role was double. On one side I was in charge of developing the integration middleware to include the Sensorized CLimbing Wall
-            sensor network within the Magic Room architecture. To complete this part of the project I had to organize the work of some 
-            colleagues to determine the modifications to the core system of the existing Sensorized Climbing Wall. On top, I had to coordinate the work 
-            of a subteam dedicated to the definiton of the AI algoritm to improve the multiperson triangolation of the fullbody tracking 
-            performed on edge computing approaches.
-
-          </p>
-          <p>
-            The second role was developer and supervisor of the activities to be performed to showcase the integration of the systems. I have developed one activity 
-            and supervised a Masther thesist while he developed another one. Finally I have created the control applciaitons for the field study in which we 
-            measured the effect of the combination of climbing and multisensoriality on the social behaviors of the users. Resutls of the study are reported
-            in a paper under revision.
-          </p>
-        </div>
+      <div class="col-md-12 col-sm-12 rolerow"> 
+        <div class="roletitle">What was my role?</div> 
+        <div class="roledescription"> 
+          <p> 
+            My role was twofold. On one hand, I was responsible for developing the integration middleware to include the Sensorized Climbing Wall sensor network
+            within the Magic Room architecture. To complete this part of the project, I organized the work of colleagues to determine the necessary modifications 
+            to the core system of the existing Sensorized Climbing Wall. Additionally, I coordinated the work of a subteam dedicated to defining the AI algorithm 
+            to enhance the multiperson triangulation of full-body tracking, performed using edge computing approaches. 
+          </p> 
+          <p> 
+            The second part of my role involved developing and supervising activities to showcase the integration of the systems. I developed one activity and 
+            supervised a Master's thesis student while he developed another. Finally, I created the control applications for the field study in which we measured 
+            the effect of combining climbing and multisensoriality on the social behaviors of the users. The results of the study are reported in a paper currently 
+            under revision. 
+          </p> 
+        </div> 
       </div>
     </div>
 
     <div class="row fullrow">
-      <div class="col-12 divider">
+      <div class="col-md-12 col-sm-12 divider">
         <div class="Title">WHAT DIFFERENT ACTIVITIES CAN BE PERFORMED?</div>
         <div class="row">
           <p class="dividerdesc">
             To display the potential of the combinated Multisensory Augmented Climbing experience we devised two experiences to be tested:.
           </p>
         </div>
-        <div id="carouselActivities" class="row fullrow ">
-          <div class="col-12">
+        <div id="blockActivities" class="row fullrow ">
+          <div class="col-md-12 col-sm-12">
 
             <div class="row">
-              <div class="col-6">
+              <div class="col-md-6 col-sm-12 spacecell">
                 <div class="card">
                   <img src="../images/IMG_0660-Photoroom.png" class="card-img-top" alt="..." />
                   <div class="card-body">
                     <h5 class="card-title">Memory Game</h5>
                     <p class="card-text">
-                      This game is a translation of the traditional Memory boardgame. One of the child plays on the floor and select one of its cards.
-                      The second player ahs to climb to reach the cards placed at the top of the climbing wall, grab the hold and keep the position 
-                      for few seconds. if the two selected cards matches they disappear, otherwise they turn back and the game procede.
+                      This game is a reinterpretation of the traditional Memory board game. One child plays on the floor and selects one of the cards. 
+                      The second player must climb the climbing wall to reach the cards placed at the top, grab a hold, and maintain their position for a few seconds. 
+                      If the two selected cards match, they disappear; otherwise, they turn back, and the game continues.
                     </p>
                   </div>
                   <ul class="list-group list-group-flush">
@@ -187,16 +186,15 @@
                   </ul>
                 </div>
               </div>
-              <div class="col-6">
+              <div class="col-md-6 col-sm-12">
                 <div class="card">
                   <img src="../images/IMG_0678.png" class="card-img-top" alt="..." />
                   <div class="card-body">
                     <h5 class="card-title">Climbing Path Game</h5>
                     <p class="card-text">
-                      This game is inspired by the climbing exercises of completing paths. One of the children plays as a Guide and see a map of the 
-                      climbing wall on the floor screen. On this map start, target and prohibited holds are identified. The guide can move on the floor 
-                      to show the climber what lies behind the hold. The other player has to climb from the start point to the target without using any 
-                      of the forbidden holds.
+                      This game is inspired by climbing exercises that involve completing paths. One child acts as the Guide and views a map of the climbing wall 
+                      projected on the floor screen. The map highlights the starting point, target, and prohibited holds. The Guide moves on the floor to show the 
+                      climber the holds that lie ahead. The other player must climb from the start to the target without using any of the forbidden holds.
                     </p>
                   </div>
                   <ul class="list-group list-group-flush">
@@ -216,14 +214,14 @@
     </div>
 
     <div class="row">
-      <div class="col-12 divider">WANT TO KNOW ME MORE?</div>
+      <div class="col-md-12 col-sm-12 divider">WANT TO KNOW ME MORE?</div>
     </div>
 
     <div class="row">
-      <div class="col-4">
+      <div class="col-md-4 col-sm-12">
         <p id="introProjects">OTHER RELATED PROJECTS:</p>
       </div>
-      <div class="col-4">
+      <div class="col-md-4 col-sm-12">
         <div class="card mycard bg-dark text-white">
           <a href="./MagicRoomProject.html">
             <div class="img-proj">
@@ -231,13 +229,13 @@
               </div>
               <div class="card-img-overlay">
                   <h5 class="card-title projecttitle">The Magic Room</h5>
-                  <p class="card-text projectdesc">Design and create a fully forking IoT system for the expeirence of children</p>
+                  <p class="card-text projectdesc">Design and create a fully working IoT system for the experience of children</p>
                   <p class="card-text projectrole">Role: Development leader</p>
               </div>
           </a>
       </div>
       </div>
-      <div class="col-4">
+      <div class="col-md-4 col-sm-12">
         <div class="card mycard bg-dark text-white">
           <a href="./MusicAndPaint.html">
             <div class="img-proj">
@@ -254,9 +252,9 @@
     </div>
 
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <p class="col-md-3 mb-0 text-body-secondary">2024 Mattia Gianotti</p>
-
-      <p class="col-md-3 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto">
+      <p class="col-md-3 col-sm-6 mb-0 text-body-secondary">2024 Mattia Gianotti</p>
+  
+      <p class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto">
         <a href="https://www.linkedin.com/in/mattia-gianotti-144590141/?originalSubdomain=it"
           class="link-body-emphasis text-decoration-none">
           Linkedin
@@ -266,8 +264,8 @@
           Polimi
         </a>
       </p>
-
-      <ul class="nav col-md-6 justify-content-end">
+  
+      <ul class="nav col-md-6 col-sm-12 justify-content-end">
         <li class="nav-item">
           <a href="../../index.html" class="nav-link px-2 text-body-secondary">Home</a>
         </li>
