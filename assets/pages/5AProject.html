@@ -64,20 +64,19 @@
       <div class="row" id="introframe">
         <div class="col-lg-6 col-sm-12">
           <p class="importanttextIntro">
-            5A - Autonomie per l'Autismo Attraverso realtà virtuale, realtà
-            Aumentata e Agenti conversazionali
+            5A - Autonomie per l'Autismo Attraverso realtà virtuale, realtà Aumentata e Agenti conversazionali
           </p>
           <p>
-            The 5A project involves the use of interactive applications and innovative tools based on smartphones and wearable headsets that
-            integrate Immersive Virtual Reality (IVR), Augmented Reality (AR), and Conversational Agents (CA). The purpose of the project is to
-            enhance the autonomy of individuals with ASD (Autism Spectrum Disorder) to promote their social inclusion and improve their
+            The 5A project involves the use of <b>interactive applications and innovative tools</b> based on smartphones and wearable headsets that
+            <b>integrate Immersive Virtual Reality (IVR), Augmented Reality (AR), and Conversational Agents (CA)</b>. The purpose of the project is to
+            enhance the autonomy of individuals with <b>ASD (Autism Spectrum Disorder)</b> to promote their <b>social inclusion</b> and improve their
             quality of life. By integrating various scenarios, the 5A applications help individuals with ASD understand the environmental
             and socio-organizational characteristics of everyday living environments and correctly perform related activities.
           </p>
           <p>
             For this project we created several prototypes of IVR and AR experiences (e.g., public transportation, supermarket, museum) and
-            created an experiemtnable showcase of two experiences to perform training for the use of the underground and the train line. The
-            project was one of the most prominent example of Cross Reality, where elements (called transmedia element) were used in both IVR and
+            created an experiemtnable showcase of two experiences to perform <b>training for the use of the underground and the train line</b>. The
+            project is one of the most prominent example of <b>Cross Reality</b>, where elements (called transmedia element) are used in both IVR and
             AR experiences to create a unique and uniform experience for the user, on top of an engaging conversatioanl agent that made the user
             completely autonomous in the experience.
           </p>
@@ -96,7 +95,7 @@
           </div>
           <div id="takehome">
             <p>
-              In the 5A project, my role as Work Package Leader focused on the design of the central control system for the experience, overseeing the 
+              In the 5A project, my role as <b>Work Package Leader</b> focused on the design of the central control system for the experience, overseeing the 
               development of the AR technology, and defining the scalable and maintainable infrastructure.
             </p>
           </div>
@@ -187,21 +186,21 @@
               <div class="subtitle">The Experience</div>
               <div class="description">
                 <p>
-                  The experience in 5A is divided into two major phases: an initial safe training session in Virtual Reality (VR), followed by a situated training session in 
-                  Augmented Reality (AR).
+                  The experience in 5A is divided into two major phases: an initial <b>safe training session in Virtual Reality (VR)</b>, followed by a 
+                  <b>situated training session in Augmented Reality (AR)</b>.
                 </p>
                 <p>
-                  Immersive Virtual Reality (IVR) provides realistic and engaging experiences through its immersive nature, using wearable headsets, and its 
+                  Immersive Virtual Reality (IVR) provides <b>realistic and engaging experiences</b> through its immersive nature, using wearable headsets, and its 
                   accessibility, enabling training anytime, anywhere. These experiences simulate typical tasks within various everyday life scenarios. Augmented 
-                  Reality (AR) helps generalize skills acquired in IVR by overlaying interactive multimedia elements onto the surrounding physical world, thus 
+                  Reality (AR) <b>helps generalize skills</b> acquired in IVR by overlaying interactive multimedia elements onto the surrounding physical world, thus 
                   creating a seamless connection between virtual training and real-world experiences. For demonstration purposes, we created two scenarios: one 
                   in an underground environment and another in a train system.
                 </p>
                 <p>
-                  Both IVR and AR experiences are managed by a central core node using a multimodal finite state machine. This system gathers data from IVR 
-                  interactions (gaze, selection, and movement), AR interactions (image recognition, screen clicks), and audio recordings (analyzed with Speech-to-Text 
-                  and Natural Language Processing algorithms). The core system determines the next state of the visualization (both in IVR and AR) and generates the 
-                  next sentence to be uttered, providing support, guidance, information, or hints to the user.
+                  Both IVR and AR experiences are managed by a <b>central core node</b> through a <b>multimodal finite state machine</b>. This system gathers data from 
+                  IVR interactions (gaze, selection, and movement), AR interactions (image recognition, screen clicks), and audio recordings (analyzed with Speech-to-Text 
+                  and Natural Language Processing algorithms). The core system <b>determines the next state of the visualization</b> (both in IVR and AR) and <b>generates the 
+                  next sentence to be uttered</b>, providing support, guidance, information, or hints to the user.
                 </p>
                 <p>
                   For further details on the scientific results of our work can be found at
@@ -220,15 +219,15 @@
                 Modular techless evolution of the system.
               </div>
               <div class="description">
-                One of the most important aspects of the technological infrastructure in the 5A project is its information architecture. The goal was to empower 
-                caregivers to easily create and customize experiences. To achieve this, the IVR and AR engines are kept simple, with the logic for the training 
-                embedded in our server. This server houses several elementary Finite State Machine (FSM) engines, one for each interaction in both IVR and AR, 
-                along with additional support machines to handle help requests and emergency exit commands.
-                The experience is built as a combination of parallel state machines, which define the execution flow of the project. What sets our system apart and 
-                allows virtually any caregiver to generate their own experiences is that the entire structure of the FSM is defined in a Google Sheet document, 
-                formatted to minimize errors during input. From within the document, a pipeline can be invoked to automatically transform the tabular data into
-                JavaScript code, which is then compiled on the production server within seconds.
-                Using the same approach, our chatbot system is also powered by a tabular system, enabling caregivers to precisely tailor the system's utterances 
+                One of the most important aspects of the technological infrastructure in the 5A project is its <b>information architecture</b>. The goal is to empower 
+                caregivers to <b>easily create and customize experiences</b> from a zero-coding prespective. To achieve this, the IVR and AR engines are kept simple, 
+                with the logic for the training embedded in our server. This server houses<b> several elementary Finite State Machine (FSM)</b> engines, one for each 
+                interaction in both IVR and AR, along with <b>additional support</b> FSM to handle help requests and emergency exit commands.
+                The experience is built as a <b>combination of parallel finite state machines</b>, which define the execution flow of the project. What sets our system apart and 
+                allows virtually any caregiver to generate their own experiences is that the entire structure of the FSM <b>is defined in a Google Sheet document</b>, 
+                formatted to minimize errors during input. From within the document, <b>a pipeline</b> can be invoked to <b>automatically transform</b> the tabular data into
+                JavaScript code, which is then compiled on the production server within seconds and automatically without programmers' intervention.
+                Using the same approach, our <b>chatbot system</b> is also powered by a tabular system, enabling caregivers to <b>precisely tailor the system's utterances</b> 
                 to meet the specific needs of each user.
               </div>
             </div>
@@ -251,14 +250,14 @@
             </div>
             <div class="col-lg-4 col-sm-12">
               <div class="subtitle">
-                The technological setup for 5A was designed to be minimal to reduce costs as much as possible.
+                The technological setup for 5A is designed to be minimal to reduce costs as much as possible.
               </div>
               <div class="description">
-                The IVR (Immersive Virtual Reality) setup required just a smartphone, a low-cost visor (such as a cardboard visor), and a Bluetooth-connected 
+                The IVR (Immersive Virtual Reality) setup required just a <b>smartphone, a low-cost visor</b> (such as a cardboard visor), and a Bluetooth-connected 
                 controller. To allow caregivers to monitor the users' progress, a screen and screencasting device could be used. For the AR (Augmented Reality) 
-                setup, the same smartphone was sufficient. Additionally, we created recognizable images to assist users in case of issues with framing or recognizing 
-                the elements in the environment. During our experimental sessions, users performed the IVR tasks either in care centers or at home, independently. 
-                The AR setup, however, was always conducted with a caregiver present to provide support.
+                setup, the same <b>smartphone</b> is sufficient. Additionally, we created recognizable images to assist users in case of issues with framing or recognizing 
+                the elements in the environment. During our experimental sessions, users performed the IVR tasks <b>either in care centers or at home</b>, independently. 
+                The AR setup, however, is always conducted with a caregiver present to provide support.
               </div>
             </div>
           </div>
@@ -266,20 +265,20 @@
       </div>
       <div class="row marginrow ">
         <div class=" col-lg-12 col-sm-12 rolerow">
-          <div class="roletitle">What was my role?</div>
+          <div class="roletitle">What is my role?</div>
           <div class="roledescription">
             <p>
-              In this project, I served as the Work Package Leader, coordinating a multidisciplinary team of 5 computer scientists and 8 psychologists and caregivers. 
+              In this project, I served as the <b>Work Package Leader</b>, coordinating a <b>multidisciplinary team</b> of 5 computer scientists and 8 psychologists and caregivers. 
               My responsibilities included preparing materials, organizing tasks, overseeing testing, and providing constructive feedback. Working in such a diverse 
-              team was challenging, but it taught me a lot about managing people from different backgrounds. I learned how to help team members express their potential 
+              team is challenging, but it taught me a lot about <b>managing people from different backgrounds</b>. I learned how to help team members express their potential 
               while keeping everyone focused on our shared objectives.
             </p>
             <p>
-              I was also in charge of developing the chatbot and the FSM (Finite State Machine) management system, including the dynamic transformation of tables into 
+              I is also in charge of <b>developing the chatbot and the FSM (Finite State Machine) management system</b>, including the dynamic transformation of tables into 
               executable code.
             </p>
             <p>
-              Additionally, I supervised the Master's thesis projects, guiding the development of the AR experience schema. This included managing the complexities 
+              Additionally, I supervised the Master's thesis projects, <b>guiding the development of the AR experience</b> schema. This included managing the complexities 
               of the uncontrolled real-world environment and designing recovery mechanisms to support users throughout the experience.
             </p>
           </div>
