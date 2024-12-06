@@ -107,12 +107,29 @@
 
 .iconskillimage{
    width: 40%;
+   padding-top: 6%;
    align-self: center; 
 }
 
 .paddingrow{
     padding-top: 1%;
     padding-bottom: 1%;
+}
+
+.tab-paper{
+    font-size: 1rem;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+}
+.tab-paper .nav-link{
+    color: cornflowerblue;
+    background-color: white;
+}
+.tab-paper .nav-link.active{
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 25px;
 }
 
 @media screen and (max-width: 1200px) {
