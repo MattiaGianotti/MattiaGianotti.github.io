@@ -35,6 +35,10 @@ b{
     padding-top: 5%;
 }
 
+#introframe b{
+    color: white;
+}
+
 #introframe p{
     color: white;
     margin-top: 10px;
