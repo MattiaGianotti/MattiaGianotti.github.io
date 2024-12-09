@@ -132,6 +132,10 @@
     border-radius: 25px;
 }
 
+.tab-content{
+    width: 100%;
+}
+
 @media screen and (max-width: 1200px) {
     .authors{
         font-size: 1rem;
